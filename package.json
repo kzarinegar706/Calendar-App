@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node scripts/app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/kzarinegar706/Calendar-App/issues"
   },
-  "homepage": "https://github.com/kzarinegar706/Calendar-App#readme"
+  "homepage": "https://github.com/kzarinegar706/Calendar-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "googleapis": "^67.1.1"
+  }
 }
